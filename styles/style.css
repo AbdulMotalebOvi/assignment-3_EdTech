@@ -1,0 +1,83 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Poppins:wght@400;600&family=Roboto:wght@700&display=swap');
+
+/* utilities */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+
+.carousel-img {
+    height: 90vh;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 25%;
+    left: 15%;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.carousel-item::before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    opacity: .5;
+    background: #1D1D1D;
+}
+
+/* course */
+.All_courses {
+    margin-top: 130px;
+}
+
+.course p {
+    font-size: 16px;
+    color: #777777;
+}
+
+/* media queries */
+/* mobile view */
+@media only screen and (max-width:576px) {
+
+    .carousel-img {
+        height: 50vh;
+    }
+
+    .carousel-caption {
+        top: 0;
+    }
+
+    h1 {
+        font-size: 33px;
+    }
+
+    h2 {
+        color: #1D1D1D;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}

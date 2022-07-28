@@ -22,9 +22,29 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 16px;
+    color: #777777;
+}
+
 .bg-1 {
     background-color: #F4FAFD;
 }
+
+
+
+/* custom css */
+.All_courses,
+.institute,
+.join_area,
+.successfull,
+.students_feedback,
+.faq,
+.companies,
+footer {
+    margin-top: 130px;
+}
+
 
 .carousel-img {
     height: 90vh;
@@ -66,41 +86,16 @@ a {
     background: #1D1D1D;
 }
 
-/* course */
-.All_courses,
-.institute,
-.join_area,
-.successfull,
-.students_feedback,
-.faq,
-.companies,
-footer {
-    margin-top: 130px;
-}
 
-.mt {
-    margin-top: 160px;
-}
-
-p {
-    font-size: 16px;
-    color: #777777;
-}
-
-/* media queries */
 /* mobile view */
 @media only screen and (max-width: 576px) {
 
-    .carousel-img {
-        height: 60vh;
-    }
-
     .carousel-caption {
-        top: 0;
+        top: 15px;
     }
 
     .carousel-caption h1 {
-        font-size: 23px;
+        font-size: 31px;
     }
 
     h2 {
@@ -108,6 +103,22 @@ p {
     }
 
     .carousel-caption p {
-        font-size: 11px;
+        font-size: 13px;
+    }
+
+    .carousel-indicators {
+        bottom: -16px;
+    }
+
+}
+
+/* modile view */
+@media only screen and (min-width:576px) and (max-width: 992px) {
+    .carousel-caption {
+        top: -10px;
+    }
+
+    .carousel-img {
+        height: 100vh;
     }
 }

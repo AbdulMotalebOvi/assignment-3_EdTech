@@ -70,7 +70,10 @@ a {
 .institute,
 .join_area,
 .successfull,
-.students_feedback {
+.students_feedback,
+.faq,
+.companies,
+footer {
     margin-top: 130px;
 }
 

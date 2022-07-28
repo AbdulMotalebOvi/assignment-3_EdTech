@@ -90,32 +90,27 @@ footer {
 /* mobile view */
 @media only screen and (max-width: 576px) {
 
-    .carousel-caption {
-        top: 15px;
-    }
-
-    .carousel-caption h1 {
-        font-size: 31px;
-    }
-
-    h2 {
-        color: #1D1D1D;
-    }
-
-    .carousel-caption p {
-        font-size: 13px;
-    }
-
     .carousel-indicators {
         bottom: -16px;
     }
 
+    .carousel-caption {
+        top: 190px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+
+    .carousel-caption p {
+        font-size: 11px;
+    }
 }
 
 /* modile view */
-@media only screen and (min-width:576px) and (max-width: 992px) {
+@media only screen and (min-width: 576px) and (max-width: 992px) {
     .carousel-caption {
-        top: -10px;
+        top: 18px;
     }
 
     .carousel-img {

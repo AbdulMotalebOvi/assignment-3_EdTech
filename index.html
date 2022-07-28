@@ -15,13 +15,39 @@
 <body>
     <!-- header area start -->
     <header class="container">
-        <!-- slider part start -->
+        <!-- nav area start  -->
+        <nav class="navbar navbar-expand-lg navbar-light py-4 position-relative ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <span class="fw-bold">Pro Edu</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#carouselExampleControls">Home</a>
+                        <a class="nav-link" href="#Courses">Courses</a>
+                        <a class="nav-link" href="#Deals">Deals</a>
+                        <a class="nav-link" href="#Success">Success</a>
+                        <a class="nav-link" href="#About">About</a>
+                        <a class="nav-link" href="#Register">Register</a>
+                    </div>
+                </div>
+                <button class="btn btn-outline-primary mt-2 mt-lg-0 mt-md-0" type="submit"><a
+                        href="">Register</a></button>
+            </div>
+        </nav>
+        <!-- NAV END -->
+        <!-- slider part end -->
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item carousel-item1 active">
                     <img src="images/cover/cover-1.png" class="d-block carousel-img w-100" alt="...">
-                    <div class="carousel-caption d-md-block pb-5 text-sm-center">
-                        <h1 class="text-white fw-bold ">Get Started Digital <br> Learning</h1>
+                    <div class="carousel-caption d-block d-lg-block d-md-block pb-5 text-sm-center">
+                        <h1 class="text-white fw-bold fs-m">Get Started Digital <br> Learning</h1>
                         <p class="fw-normal text-light">It is a long established fact that a reader will be distracted
                             by the
                             readable <br> content of
@@ -73,7 +99,7 @@
     <!-- header area end -->
     <main class="container">
         <!-- courses area start -->
-        <section class="All_courses">
+        <section id="Courses" class="All_courses">
             <h2 class="fw-bold text text-center">Discover Our Popular <br> Courses</h2>
             <p class="text-center">It is a long established fact that a reader will be distracted by the readable <br>
                 content of a page when
@@ -81,69 +107,70 @@
             <div class="row mt-5">
                 <div class="col-lg-6 col-md-12 col-12">
                     <!-- course part start -->
-                    <div class="d-flex flex-column flex-md-row flex-lg-row  shadow-sm">
+                    <article class="d-flex flex-column flex-md-row flex-lg-row  shadow-sm">
                         <div>
                             <img class="w-100" src="images/course/course-1.png" alt="">
                         </div>
                         <div class="ps-4 mt-4 mt-md-0 mt-lg-0">
                             <h3 class="fw-bold fs-4">
-                                Photography Basic Rules
+                                undamental Of UI/UX Design
                             </h3>
                             <p>Some quick example text to build on the card title and make up the bulk of the card.
                             </p>
                             <h4 class="text-primary fs-6 fw-bold">Price : 20$</h4>
                         </div>
-                    </div>
+                    </article>
+
                     <!-- course prt end -->
                     <!-- course part start -->
-                    <div class="d-flex flex-column flex-md-row flex-lg-row mt-4 shadow-sm">
+                    <article class="d-flex flex-column flex-md-row flex-lg-row mt-4 shadow-sm">
                         <div>
                             <img class="w-100" src="images/course/course-2.png" alt="">
                         </div>
                         <div class="ps-4 mt-2 mt-4 mt-md-0 mt-lg-0">
-                            <h3 class="fw-bold fs-4">Photography Basic Rules</h3>
+                            <h3 class="fw-bold fs-4">Full Stack Web Development</h3>
                             <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                             <h4 class="text-primary fs-6 fw-bold">Price : 20$</h4>
                         </div>
-                    </div>
+                    </article>
                     <!-- course prt end -->
                     <!-- course part start -->
-                    <div class="d-flex flex-column flex-md-row flex-lg-row  mt-4  shadow-sm">
+                    <article class="d-flex flex-column flex-md-row flex-lg-row  mt-4  shadow-sm">
                         <div>
                             <img class="w-100" src="images/course/course-3.png" alt="">
                         </div>
                         <div class="ps-4 mt-2 mt-4 mt-md-0 mt-lg-0">
-                            <h3 class=" fw-bold fs-4">Javascript Basic to advanced</h3>
+                            <h3 class=" fw-bold fs-4">Web developer</h3>
                             <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                             <h4 class="text-primary fs-6 fw-bold">Price : 20$</h4>
                         </div>
-                    </div>
+                    </article>
                     <!-- course prt end -->
                 </div>
                 <div class="col-lg-6  col-md-12 col-12">
                     <!-- course part start -->
-                    <div class="course d-flex flex-column flex-md-row flex-lg-row shadow-sm">
+                    <article class="course d-flex flex-column flex-md-row flex-lg-row shadow-sm">
                         <div>
                             <img class="w-100" src="images/course/course-4.png" alt="">
-                        </div>
-                        <div class="ps-4 mt-2 mt-4 mt-md-0 mt-lg-0">
-                            <h3 class=" fw-bold fs-4">Fundamental Of UI/UX Design</h3>
-                            <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <h4 class="text-primary fs-6 fw-bold">Price : 20$</h4>
-                        </div>
-                    </div>
-                    <!-- course prt end -->
-                    <!-- course part start -->
-                    <div class="course d-flex flex-column flex-md-row flex-lg-row mt-4 shadow-sm">
-                        <div>
-                            <img class="w-100" src="images/course/course-5.png" alt="">
                         </div>
                         <div class="ps-4 mt-2 mt-4 mt-md-0 mt-lg-0">
                             <h3 class=" fw-bold fs-4">Digital Marketing</h3>
                             <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                             <h4 class="text-primary fs-6 fw-bold">Price : 20$</h4>
                         </div>
-                    </div>
+                    </article>
+                    <!-- course prt end -->
+                    <!-- course part start -->
+                    <article class="course d-flex flex-column flex-md-row flex-lg-row mt-4 shadow-sm">
+                        <div>
+                            <img class="w-100" src="images/course/course-5.png" alt="">
+                        </div>
+                        <div class="ps-4 mt-2 mt-4 mt-md-0 mt-lg-0">
+                            <h3 class=" fw-bold fs-4">Photography Basic Rules</h3>
+                            <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                            <h4 class="text-primary fs-6 fw-bold">Price : 20$</h4>
+                        </div>
+                    </article>
                     <!-- course prt end -->
                     <!-- course part start -->
                     <article class="course d-flex flex-column shadow-sm flex-md-row flex-lg-row mt-4">
@@ -167,7 +194,7 @@
         </section>
         <!-- courses area end -->
         <!-- Insitute Info start -->
-        <section class="institute bg-1 rounded-end">
+        <section id="Deals" class="institute bg-1 rounded-end">
             <div class="row">
                 <div class="col-md-12 col-lg-6 col-12">
                     <img class="img-fluid" src="images/working.png" alt="">
@@ -208,7 +235,7 @@
         </section>
         <!-- Insitute Info end -->
         <!-- ready to join part start -->
-        <section class="join_area bg-primary bg-gradient rounded">
+        <section id="Register" class="join_area bg-primary bg-gradient rounded">
             <div class="row px-5">
                 <div class="mt-5 py-5 col-lg-10 col-12 text-center pt-sm-0 text-sm-center text-md-center text-lg-start">
                     <h2 class="text-white fw-bold">Ready To Join</h2>
@@ -297,7 +324,7 @@
         </section>
         <!-- ready to join part end -->
         <!-- successful students area start -->
-        <section class="successfull">
+        <section id="Success" class="successfull">
             <h2 class="fw-bold">Meet Our Successfull <br> Students</h2>
             <p>It is a long established fact that a reader will be distracted by the <br> readable content of a page
                 when
@@ -347,7 +374,7 @@
         <!-- successful students area end -->
         <!-- students feedback -->
         <section class="students_feedback">
-            <div class="text-center">
+            <div class="text-center pb-1 pb-lg-3 pb-md-2">
                 <h2 class="fw-bold">Some Students Feedback</h2>
                 <p>It is a long established fact that a reader will be distracted by the <br> readable content of a page
                     when
@@ -599,7 +626,7 @@
                 </div>
         </section>
         <!-- faq area start -->
-        <section class="faq">
+        <section id="About" class="faq">
             <div class="text-center">
                 <h2 class="fw-bold">Frequently Asked Questions</h2>
                 <p class=" my-5">It is a long established fact that a reader will be distracted by the <br>
@@ -707,7 +734,7 @@
         <div class="container">
             <h2 class="text-white fw-bold">Pro Edu</h2>
             <address>
-                <p class="w-25 m-auto py-2">Office 41, Zawaya Buildin, Ghala Muscat,
+                <p class="py-2">Office 41, Zawaya Buildin, Ghala Muscat, <br>
                     Sultanate of Oman</p>
                 <p>Privacy Ploicy | Terms of use</p>
                 <div class="social-links">

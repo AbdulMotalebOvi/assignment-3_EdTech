@@ -109,9 +109,6 @@ footer {
 
 /* modile view */
 @media only screen and (min-width: 576px) and (max-width: 992px) {
-    .carousel-caption {
-        top: 18px;
-    }
 
     .carousel-img {
         height: 100vh;
